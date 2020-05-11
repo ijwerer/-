@@ -1,0 +1,36 @@
+temp = input("who are you?")
+print(temp)
+print("a good name.")
+
+name=(temp)
+
+print("your name is")
+print(name)
+temp = input("right? yes or no.")
+
+tell=(temp)
+
+if tell == ("yes"):
+    print("ok, how old are")
+    temp = input("you?")
+
+    age=int(temp)
+
+    if age < 18:
+        print("you are too young for this job.")
+    if age == 18:
+        print("you still need to go collage.")
+    if age > 18:
+        print("let me see...")
+        temp = input("ok, you already graduate?")
+
+        grad=(temp)
+        if grad == ("yes"):
+            print("ok, go wait for the answer.")
+
+        else:
+            print("sorry, we need grads.")
+
+else:
+    print("i'dont have much time for you. go back, find another job.")
+
